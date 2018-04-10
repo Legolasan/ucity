@@ -2,7 +2,6 @@ html {
 	font-size: 1.1em;
 	margin:0;
 	color: black;
-	
 	height: 100%;
 }
 
@@ -31,9 +30,8 @@ nav.navbar {
 -------------------------------------------------------------------------------------------------*/
 
 #about {
-	height: 88vh;
+	height: 92.5vh;
 	background: linear-gradient(#9bc0e5, #bddeff);
-	
 }
 
 #navbar-brand {	
@@ -78,11 +76,11 @@ input[type=text], input[type=email], input[type=password], select {
 	margin: 5px auto;
 	display: inline-block;
 	box-sizing: border-box;
-	border: 0;
+	border: 1px solid #ccc;
 	outline: 0;
 	border-radius: 0;
 	background: transparent;
-	border-bottom: 1px solid gray;
+                                                /*	border-bottom: 1px solid gray;*/
 }
 
 input[type=submit], input[type=reset] {
@@ -98,23 +96,24 @@ input[type=submit], input[type=reset] {
 input[type=reset] { 
 	font-weight: bold;
 	background-color: #ffd;
- }
+}
 
 /* Shared */
 .loginBtn {
-	width: 200px;
-  box-sizing: border-box;
-  position: relative;
-  /* width: 13em;  - apply for fixed size */
-  margin: 0.2em;
-  padding: 0 15px 0 46px;
-  border: none;
-  text-align: left;
-  line-height: 34px;
-  white-space: nowrap;
-  border-radius: 0.2em;
-  font-size: 14px;
-  color: #FFF;
+    width: 200px;
+    box-sizing: border-box;
+    position: relative;
+                                                /* width: 13em;  - apply for fixed size */
+    margin: 0.2em;
+    margin-bottom: 10px;                        /* Bottom margin added for good looking */
+    padding: 0 15px 0 40px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 14px;
+    color: #FFF;
 }
 .loginBtn:before {
   content: "";
